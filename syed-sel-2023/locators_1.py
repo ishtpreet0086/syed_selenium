@@ -55,6 +55,6 @@ print(success_msg)
 # print("hello")
 # print("bye")
 # print("syed push")
-
+# print("ips push")
 time.sleep(3)
 driver.close()
