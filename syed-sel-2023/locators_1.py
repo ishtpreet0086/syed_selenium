@@ -52,6 +52,7 @@ driver.find_element(By.XPATH, "//input[contains(@class,'success')]").click()
 success_msg = driver.find_element(By.CLASS_NAME, "alert-success").text[2:]
 print(success_msg)
 ## print("Hello my name is Syed")
+####### assert is a good command to remember
 # print("none")
 # print("hello")
 # print("bye")
