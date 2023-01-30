@@ -1,0 +1,72 @@
+
+
+
+selenium1:
+
+selenium RC- Remote control
+
+selenium2:
+RC- deprecated
+
+Webdriver + selenium -> selenium 2
+
+selenium 3:
+Selenium IDE--> Firefox plugin (Play, pause, record)--> activity---whatever u are doing on a webpage--> it used to generate code
+
+Webdriver---> module---> classes, functions which can be used to write selenium test cases
+
+Selenium grid--> It was used to run test cases in parallel and on multiple browsers and on multiple machines
+Hub--> start
+Nodes---> register the nodes with the hub
+
+Oct 2021--> selenium 4.0.0------4.7 till date
+
+
+Selenium3:
+
+1. selenium client: which will communicate to browser driver
+
+Webdriver language bindings: Python, Java, javascript, perl, C
+Everything is available in the form of REST apis
+2. json wire protocol: 
+
+
+3. browser driver: firefox, chrome, safari...etc---individual drivers for each driver ---chromedriver, geckodriver, edgedriver....exe files
+
+4. Real browser: http request---perform actions on the web app
+
+Selenium 4:
+
+Json wire protocol ---deprecated
+
+W3c protocol---encoding and decoding not necessary
+
+1. Fast communication
+2. Stability--same code used to run differently on different browsers---selenium issues/ errors
+3. actions class modified---mouse actions---> newly introduced--> zoom in/out, press 2 keys from the keyboard at the same time
+4. upgrade selenium grid:
+hub/node separetely start earlier-----> in slenium4: no need to start them individually:
+standalone mode: run a single jar file and it will take care of all the processes
+hub and node:
+Distributed mode: router, distributor, session and node-- individually run
+
+5. deprecated desired capabilities:
+
+Options class
+
+chromeOptions
+FirefoxOptions
+
+6. improved window/ tab management:
+multiple windows/tabs open through selenium---multiple instances were required earlier for webdriver to handle multiple windows, but in selenium 4---only one instance is req
+
+7. upgrade selenium IDE:
+earlier--> firefox plugin
+now--> chrome  and ms edge also
+SIDE runner--> Selenium IDE runner--> allows test cases to be executed from cmd and even on grid
+
+
+
+
+
+
